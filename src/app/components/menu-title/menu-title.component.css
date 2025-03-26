@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.menu__title__container{
+    color: #fff;
+}
+
+.menu__title__container > h1{
+    font-size:7.85rem ;
+    font-family: "Krona One", sans-serif;
+    text-align: center;
+    text-transform:uppercase ;
+    padding: 15px 0 15px 0;
+}
+
+.menu__title__container > hr{
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
