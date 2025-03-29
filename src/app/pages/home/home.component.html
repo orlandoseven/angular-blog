@@ -1,14 +1,37 @@
-<header>
-  <app-menu-bar> </app-menu-bar>
-</header>
+
 <app-menu-title></app-menu-title>
 <div class="articles">
   <div class="articles__main">
-    <app-big-card></app-big-card>
+    <app-big-card 
+    id="1"
+    photoCover="../assets/img/sagradaFamilia-01.jpg"
+    cardTitle="Sagrada Família, Barcelona, Espanha"
+    cardDescription="Projetada por Antoni Gaudí, é um exemplo da arquitetura modernista, com formas orgânicas e simbolismo religioso.
+    "
+    >
+  </app-big-card>
   </div>
+
   <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card 
+    id="2"
+    cardTitle="Ópera de Sydney - Sydney, Austrália"
+    photoCover="assets/img/sydney-opera-house-01.jpg"
+    >
+    </app-small-card>
+
+    <app-small-card
+    id="3"
+    cardTitle="Taj Mahal – Agra, Índia"
+    photoCover="../../assets/img/india-taj-mahal-01.jpg"
+    >
+    </app-small-card>
+
+    <app-small-card
+    id="4"
+    cardTitle="Ponte Golden Gate – São Francisco, Estados Unidos"
+    photoCover="assets/img/goldenGate-01.jpeg"
+    >
+    </app-small-card>
   </div>
 </div>

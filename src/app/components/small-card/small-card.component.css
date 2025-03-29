@@ -7,7 +7,7 @@
 }
 
 .small-card__photo > img{
-    width: 100%;
+    width: 300px;
     border-radius: 7px;
 }
 
@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 .small-card__line{
